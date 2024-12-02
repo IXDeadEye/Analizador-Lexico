@@ -1,0 +1,35 @@
+function suma(a, b) {
+    if (a > b) {
+        return a - b;
+    } else {
+        return b - a;
+    }
+}
+
+function resta(a, b) {
+    if (a < b) {
+        return b - a;
+    } else {
+        return a - b;
+    }
+}
+
+function multiplicacion(a, b) {
+    return a * b;
+}
+
+funcion incorrecta(a, b) {
+    if (a > b) {
+        return a - b;
+    } else {
+        return b - a;
+    }
+}
+
+function division(a, b) {
+    if (b != 0) {
+        return a / b;
+    } else {
+        return "Error: Division by zero";
+    }
+}
